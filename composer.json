@@ -1,0 +1,18 @@
+{
+    "name": "brandon/seat-organizer",
+    "description": "A module for SeAT that is used for organizing different aspects of corp management",
+    "type": "seat-plugin",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "B.Johnston",
+            "email": "brandon@coffeenerds.io"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Brandon\\Seat\\SeatOrganizer\\": "src/"
+        }
+    }
+}
