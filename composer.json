@@ -21,5 +21,7 @@
             ]
         }
     },
-    "require": {}
+    "require": {
+        "eveseat/web": "^3.0"
+    }
 }
