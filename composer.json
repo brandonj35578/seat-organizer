@@ -9,10 +9,17 @@
             "email": "brandon@coffeenerds.io"
         }
     ],
-    "require": {},
     "autoload": {
         "psr-4": {
             "Brandon\\Seat\\SeatOrganizer\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Brandon\\Seat\\SeatOrganizer\\OrganizerServiceProvider"
+            ]
+        }
+    },
+    "require": {}
 }
