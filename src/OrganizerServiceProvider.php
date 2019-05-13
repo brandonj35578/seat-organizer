@@ -1,6 +1,6 @@
 <?php
 
-namespace Brandon\Seat\SeatOrganizer;
+namespace Brandon\Seat\Organizer;
 
 use Illuminate\Support\ServiceProvider;
 

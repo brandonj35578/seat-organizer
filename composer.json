@@ -11,13 +11,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Brandon\\Seat\\SeatOrganizer\\": "src/"
+            "Brandon\\Seat\\Organizer\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Brandon\\Seat\\SeatOrganizer\\OrganizerServiceProvider"
+                "Brandon\\Seat\\Organizer\\OrganizerServiceProvider"
             ]
         }
     },
